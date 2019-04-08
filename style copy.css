@@ -1,0 +1,161 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+/*--images--*/
+#about img
+{
+  width: 50%;
+  margin: 20px auto;
+  display: block;
+}
+
+/*--Navigation --*/
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand img
+{
+  height: 160px;
+  padding-left: 120px;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+  Float: right;
+  text-align: left;
+}
+#nav-bar ul li a:hover
+{
+  color: #FFD700!important;
+}
+.navbar
+{
+  background: #fff;
+}
+.navbar-toggler
+{
+  border: none!important;
+}
+.nav-link
+{
+  color: #555!important;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/*--About--*/
+h1
+{
+  text-align: center;
+  color: #555 !important;
+  padding-bottom: 10px;
+}
+h1::after
+{
+  content: '';
+  background: #FFD700;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.about-content
+{
+  text-align: center;
+  color: #555 !important;
+  padding-bottom: 10px;
+}
+
+/*--take test--*/
+#take
+{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(img/test.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 100px;
+  font-family: sans-serif;
+  font-size: 38px;
+}
+#take .btn
+{
+  background: #FFD700;
+}
+#take .btn:hover
+{
+  background-color: #DAA520;
+}
+
+/*--Next steps--*/
+#next
+{
+  padding: 40px 0;
+  background: #efefef;
+}
+.step
+{
+  margin: 10px auto;
+  display: inline;
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  transition: 0.5s;
+}
+.step:hover
+{
+  box-shadow: 0 2px 20px #333;
+}
+.head
+{
+  background-color: #FFD700;
+  display: inline;
+  float: left;
+  padding: 10px 5px;
+  text-align: center;
+  width: 100%;
+}
+.head h2
+{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.step-content
+{
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 0 15px;
+}
+.step-content ul li
+{
+  border-bottom: 1px solid #efefef;
+  padding: 15px 10px;
+  list-style: none;
+}
+/*--Footer--*/
+#footer
+{
+  background: #333;
+  color: #fff;
+  padding: 12px;
+}
+.fa-heart-o
+{
+  margin: 3px;
+  color: red;
+}
